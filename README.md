@@ -14,3 +14,13 @@ for some norm $\|\cdot\|$.
 Uses `pyrao`, we can generate interaction matrices based on system parameters. To validate the concept described above, we can define system parameters similar to MAVIS, perturb them slightly, and then test the ability to find the perturbed values given only the nominal ones and an interaction matrix generated using the perturbed ones.
 
 This experiment is performed in `validation.py`.
+
+
+### Todo:
+ - noisy measured imat,
+ - ✅ DM x/y misregistration,
+ - WFS x/y misregistration,
+ - DM rotation,
+ - WFS rotation,
+ - DM zoom,
+ - WFS zoom,
